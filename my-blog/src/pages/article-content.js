@@ -1,6 +1,77 @@
 const articles = [
-    {name: 'learn-react',
-title: 'The fastest way to learn', 
-content: ['Adipisicing officia labore irure ut ea nostrud fugiat dolore nisi ut sint exercitation. Id occaecat pariatur ea officia magna sit amet incididunt elit fugiat veniam anim irure sit. Do non proident nostrud duis proident consectetur ipsum. Esse culpa labore dolore reprehenderit in quis do reprehenderit. Labore ipsum consectetur occaecat irure est deserunt velit adipisicing ullamco. Quis commodo cupidatat laborum eu in occaecat commodo anim.', 'Culpa tempor excepteur fugiat ad eiusmod aliquip proident. Ad laboris eu proident nostrud duis dolor laboris nisi. Sunt eu Lorem Lorem aute sint. Duis Lorem aliqua amet officia ea ipsum veniam ea non eiusmod velit id. Id tempor laboris id laborum proident ut nisi elit eiusmod tempor. Qui velit qui non nisi. Voluptate commodo et aliquip nisi irure irure duis irure officia deserunt adipisicing.']}
+    {
+        name: 'learn-react',
+        title: 'The Fastest Way to Learn React',
+        content: [
+            `Welcome! Today we're going to be talking about the fastest way to
+            learn React. We'll be discussing some topics such as proin congue
+            ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo. 
+            Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
+            non porta arcu porttitor non. In tincidunt vulputate nulla quis egestas. Ut 
+            eleifend ut ipsum non fringilla. Praesent imperdiet nulla nec est luctus, at 
+            sodales purus euismod.`,
+            `Donec vel mauris lectus. Etiam nec lectus urna. Sed sodales ultrices dapibus. 
+            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
+            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
+            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
+            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
+            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
+            `Etiam nec lectus urna. Sed sodales ultrices dapibus. 
+            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
+            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
+            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
+            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
+            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
+        ]
+    },    {
+        name: 'learn-node',
+        title: 'How to Build a Node Server in 10 Minutes',
+        content: [
+            `In this article, we're going to be talking looking at a very quick way
+            to set up a Node.js server. We'll be discussing some topics such as proin congue
+            ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo. 
+            Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
+            non porta arcu porttitor non. In tincidunt vulputate nulla quis egestas. Ut 
+            eleifend ut ipsum non fringilla. Praesent imperdiet nulla nec est luctus, at 
+            sodales purus euismod.`,
+            `Donec vel mauris lectus. Etiam nec lectus urna. Sed sodales ultrices dapibus. 
+            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
+            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
+            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
+            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
+            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
+            `Etiam nec lectus urna. Sed sodales ultrices dapibus. 
+            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
+            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
+            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
+            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
+            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
+        ]
+    },     {
+        name: 'my-thoughts-on-resumes',
+        title: 'My Thoughts on Resumes',
+        content: [
+            `Today is the day I talk about something which scares most people: resumes.
+            In reality, I'm not sure why people have such a hard time with proin congue
+            ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo. 
+            Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
+            non porta arcu porttitor non. In tincidunt vulputate nulla quis egestas. Ut 
+            eleifend ut ipsum non fringilla. Praesent imperdiet nulla nec est luctus, at 
+            sodales purus euismod.`,
+            `Donec vel mauris lectus. Etiam nec lectus urna. Sed sodales ultrices dapibus. 
+            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
+            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
+            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
+            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
+            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
+            `Etiam nec lectus urna. Sed sodales ultrices dapibus. 
+            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
+            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
+            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
+            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
+            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
+        ]
+    },  
 ];
+
 export default articles;
