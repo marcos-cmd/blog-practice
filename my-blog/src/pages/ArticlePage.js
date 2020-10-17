@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import ArticlesList from '../components/ArticlesList';
+import AddCommentForm from '../components/AddCommentsForm';
 import CommentsList from '../components/CommentsList';
+import UpvoteSection from '../components/UpvoteSection';
 import NotFoundPage from './NotFoundPage';
 import articleContent from './article-content';
 
@@ -32,11 +33,13 @@ const ArticlePage = ({ match }) => {
     // <React.Fragment> is used instead of wrapping in Divs
     <>
         <h1>{article.title}</h1>
+        <UpvoteSection articleName={name} upvotes={articleInfo.upvotes} setArticleInfo={settArticleInfo} />
         <p>This post has been upvoted {articleInfo.upvotes} times.</p>
         {article.content.map((paragraph, key) => (
             <p key={key}>{paragraph}</p>
         ))}
         <CommentsList comments={articleInfo.comments} />
+        <AddCommentForm articleName={name} setArticleInfo={setArticleInfo} />
         <h3>Other Articles</h3>
         <ArticlesList artticles={otherArticles} />
     </>
