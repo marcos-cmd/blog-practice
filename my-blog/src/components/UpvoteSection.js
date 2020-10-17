@@ -5,13 +5,15 @@ const UpvoteSection = ({ upvotes, articleName, setArticleInfo }) => {
         await fetch(`/api/articles/${articleName}/upvote`, {
             method: 'post'
         });
-        const body = await response.json();
+        const body = await Response.json();
         setArticleInfo(body);
     };
     return(
     <div id="upvotes-section">
-        <button onClick={}>Add Upvote</button>
-        <p>This post has been upvoted {articleInfo.upvotes} times.</p>
+        <button onClick={()=> {
+            upvoteArticle();
+        }}>Add Upvote</button>
+        <p>This post has been upvoted {upvotes} times.</p>
     </div>
     );
 }

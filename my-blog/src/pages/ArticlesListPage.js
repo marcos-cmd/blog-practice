@@ -6,7 +6,7 @@ const ArticlesListPage = () => (
     // <React.Fragment> is used instead of wrapping in Divs
     <>
         <h1>Articles</h1>
-        <ArticlesListPage articles={articleContent} />
+        <ArticlesList articles={articleContent} />
     </>
 );
 
